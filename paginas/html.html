@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/html.css">
+    <title>Introdução ao HTML</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <span class="intro">Introdução ao </span>
+            <span class="letra" data-tooltip="Hyper">H</span>
+            <span class="letra" data-tooltip="Text">T</span>
+            <span class="letra" data-tooltip="Markup">M</span>
+            <span class="letra" data-tooltip="Language">L</span>
+        </h1>
+    </header>
+    <main>
+        <section>
+            <h2>Como foi criado o HTML?</h2>
+            <p>O HTML (HyperText Markup Language) foi criado por Tim Berners-Lee em 1991, enquanto trabalhava no CERN (Centro Europeu de Pesquisa Nuclear), com o objetivo de facilitar o compartilhamento de informações entre cientistas. Ele queria uma maneira simples de ligar documentos (hipertexto) através de links que poderiam ser clicados para acessar diferentes páginas. A primeira versão do HTML foi um conjunto básico de elementos (tags), que permitiam a formatação de textos e a criação de links. A ideia evoluiu rapidamente, e o HTML se tornou o padrão principal para a construção de páginas web. Ao longo dos anos, ele passou por várias revisões e melhorias, resultando em versões mais sofisticadas, como o HTML5, que expandiu suas capacidades para suportar multimídia, gráficos, e aplicativos complexos na web.</p>
+            <h2>Para que serve o HTML ?</h2>
+            <p>O HTML (HyperText Markup Language) serve para estruturar e organizar o conteúdo de páginas na web. Ele define a estrutura básica de um site, permitindo que textos, imagens, vídeos, links, e outros elementos sejam exibidos de maneira organizada e visualmente compreensível em navegadores. Em resumo, o HTML:</p><br>
+            <ol>
+                <li>Estrutura o conteúdo: Define títulos, parágrafos, listas, tabelas, e outros elementos de layout.</li>
+                <li>Cria links: Permite a navegação entre diferentes páginas ou seções do site através de hyperlinks.</li>
+                <li>Incorpora multimídia: Facilita a inclusão de imagens, vídeos, áudios e outros tipos de mídia.</li>
+                <li>Interage com outros códigos: Serve como base para a integração de linguagens de estilo (CSS) e comportamento (JavaScript), permitindo páginas mais dinâmicas e estilizadas.</li>
+            </ol>
+            <p>O HTML é essencial para que o conteúdo da web seja interpretado corretamente pelos navegadores e apresentado aos usuários.</p>
+            <h2>Aqui vão algumas coisas que são essenciais estudar no HTML.</h2>
+            <h3>1. Estrutura básica do HTML</h3>
+            <ul>
+                <li>Doctype: A declaração inicial &lt;!DOCTYPE html&gt; para definir o documento como HTML5.</li>
+                <li>Tags principais: &lt;html&gt; &lt;head&gt; &lt;body&gt;.</li>
+                <li>Cabeçalho (head): Meta tags, título da página (&lt;title&gt;), links para CSS, scripts, etc.</li>
+            </ul>
+            <h3>2. Elementos de Texto</h3>
+            <ul>
+                <li>Cabeçalhos: &lt;h1&gt; a &lt;h6&gt; para títulos de diferentes níveis.</li>
+                <li>Parágrafos: &lt;p&gt; para blocos de texto.</li>
+                <li>Ênfase e formatação: &lt;strong&gt;, &lt;em&gt;, &lt;b&gt;, &lt;i&gt;.</li>
+            </ul>
+            <h3>3. Listas</h3>
+            <ul>
+                <li>Listas ordenadas: &lt;o&gt; (listas numeradas).</li>
+                <li>Listas não ordenadas: &lt;ul&gt; (listas com marcadores).</li>
+                <li>Itens de lista: &lt;li&gt;.</li>        
+            </ul>
+            <h3>4. Links e Ancoras</h3>
+            <ul>
+                <li>Links: &lt;a href="URL"&gt; para criar hyperlinks.</li>
+                <li>Âncoras internas: Criar navegação dentro da mesma página com IDs.</li>
+            </ul>
+            <h3>5. Imagens e Mídia</h3>
+            <ul>
+                <li>Imagens: &lt;img src="URL" alt="texto alternativo"&gt;.</li>
+                <li>Multimídia: Tags como &lt;video&gt;, &lt;audio&gt;, e &lt;iframe&gt; para incorporar vídeos, áudios e outras páginas.</li>
+            </ul>
+            <h3>6. Tabelas</h3>
+            <ul>
+                <li>Estrutura básica com &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;, e &lt;th&gt; para organizar dados em formato tabular.</li>
+            </ul>
+            <h3>7. Formulários</h3>
+            <ul>
+                <li>Campos de entrada: &lt;input&gt; para campos de texto, senha, botão, etc.</li>
+                <li>Seleção e botões: &lt;select&gt;, &lt;textarea&gt;, &lt;button&gt;.</li>
+                <li>Envio de formulário: Atributos como action, method, e o botão de envio &lt;button type="submit"&gt;.</li>
+            </ul>
+            <h3>8. Elementos Semânticos</h3>
+            <ul>
+                <li>Elementos como &lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, &lt;section&gt;, &lt;nav&gt; ajudam a melhorar a acessibilidade e a SEO, organizando o conteúdo de forma significativa.</li>
+            </ul>
+            <h3>9. Atributos Globais</h3>
+            <ul>
+                <li>Atributos como class, id, style, title, e data-* que podem ser aplicados a praticamente qualquer tag HTML.</li>
+            </ul>
+            <h3>10. Boas Práticas</h3>
+            <ul>
+                <li>Acessibilidade: Uso de atributos alt em imagens e semântica adequada.</li>
+                <li>SEO (Search Engine Optimization): Estrutura correta de cabeçalhos, meta tags e links.</li>
+                <li>Validação HTML: Garantir que o código esteja correto usando ferramentas como o W3C Validator.</li>
+            </ul>
+        </section>
+        <p>Quer aprender outra coisa? <a href="../index.html">Clique Aqui!</a> Caso queira aprender mais ainda sobre HTML <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank">Clique Aqui!</a></p>
+    </main>
+    <footer>
+        <p>2024 - O mundo do Desenvolvedor. Todos os direitos reservados</p>
+        <p>Entre em contato pelo e-mail: carloseduardomveloso@gmail.com</p>
+    </footer>
+</body>
+</html>
